@@ -1,1 +1,1 @@
- adresem https://aga071.github.io/goit-markup-hw-01/
+adresem https://aga071.github.io/goit-markup-hw-02/
