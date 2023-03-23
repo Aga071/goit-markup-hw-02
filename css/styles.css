@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+body {
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: #2196f3;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-span {
+  color: #000000;
+}
+.nav,
+.contact-details {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.contact-details {
+  color: #757575;
+}
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  background-color: #f5f4fa;
+  border: none;
+}
+.button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  border: none;
+}
+.heading {
+  font-size: 18px;
+  line-height: 2;
+}
+.paragraph {
+  color: #757575;
+  line-height: 1.875;
+}
+.address,
+.contact-details-secondary {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+}
+.contact-details-secondary {
+  color: #ffffff99;
+}
