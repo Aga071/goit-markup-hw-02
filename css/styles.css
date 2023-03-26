@@ -7,9 +7,9 @@
   --color-contact-light: #ffffff99;
   --font-family-primary: 'Roboto', sans-serif;
   --font-family-secondary: 'Raleway', sans-serif;
-  --background-color-page-filter: #f5f4fa;
-  --background-coloor-primary-light: #ececec;
-  --background-coloor-primary-dark: #2f303a;
+  --background-color-primary-light: #ffffff;
+  --background-color-secondary-light: #f5f4fa;
+  --background-color-primary-dark: #2f303a;
 }
 * {
   margin: 0;
@@ -27,11 +27,14 @@ body {
   color: var(--color-text-primary);
   font-family: var(--font-family-primary);
 }
-.background-light {
-  background-color: var(--background-coloor-primary-light);
-}
 .background-dark {
-  background-color: var(--background-coloor-primary-dark);
+  background-color: var(--background-color-primary-dark);
+}
+.background-light {
+  background-color: var(--background-color-secondary-light);
+}
+.background-our-team {
+  background-color: var(--background-color-primary-light);
 }
 .logo {
   font-family: var(--font-family-secondary);
@@ -102,7 +105,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
-  background-color: var(--background-color-page-filter);
+  background-color: var(--background-color-secondary-light);
   border: none;
 }
 .page-filter:hover,
